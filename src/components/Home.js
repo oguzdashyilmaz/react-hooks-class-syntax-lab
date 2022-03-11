@@ -1,14 +1,14 @@
 import React from "react";
 
 class Home extends React.Component {
-  render () {
+  render() {
     return (
-      <div>
-        <h1 style={{color: this.props.color}}>
-          {this.props.name} is a web developer from {this.props.city}
+      <div id="home">
+        <h1 style={{ color: this.props.color }}>
+          {this.props.username} is a Web Developer from {this.props.city}
         </h1>
       </div>
-    )
+    );
   }
 }
 
